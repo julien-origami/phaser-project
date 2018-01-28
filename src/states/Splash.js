@@ -17,6 +17,7 @@ export default class extends State {
         this.load.image('ground', 'assets/images/platform.png')
         this.load.image('diamond', 'assets/images/diamond.png')
         this.load.spritesheet('dog', 'assets/images/player.png', 32, 32)
+        this.load.atlas('ground', 'assets/textures/tiles.png', 'assets/textures/tiles.json')
         this.load.spritesheet('coin', 'assets/images/coin.png', 32, 32)
     }
 
